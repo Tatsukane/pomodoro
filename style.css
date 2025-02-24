@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+body {
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+#pomodoro-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 1.1rem;
+	box-sizing: border-box;
+}
+
+#button-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#se-button-container {
+	margin-top: 0.125rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+#time-container {
+	margin-top: 0.125rem;
+}
+
+
+.button,
+.se-button {
+	border: 1px solid #000000;
+	border-radius: 50px;
+	text-align: center;
+	color: black;
+	font-size: 1.25rem;
+	margin: 0.313rem;
+	padding: 0.313rem 0.5rem;
+	transition-duration: 0.4s;
+}
+
+.button:hover,
+.se-button:hover {
+	background-color: #000;
+	color: #fff;
+	cursor: pointer;
+}
+
+#countdown {
+	font-family: "Karla", sans-serif;
+	font-size: 10.375rem;
+	text-align: center;
+	font-weight: 800;
+}
